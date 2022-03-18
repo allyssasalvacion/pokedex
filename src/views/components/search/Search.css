@@ -1,0 +1,16 @@
+.search .MuiFormControl-root {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: .5rem;
+}
+
+.search input {
+  padding: 16px 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: #474c4d;
+}
+
+.search fieldset {
+  border: none;
+}

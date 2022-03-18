@@ -1,0 +1,10 @@
+.dashboard {
+  background: #f0f3f9;
+  height: 100vh;
+}
+
+.dashboard__contents {
+  max-width: 72rem;
+  margin: auto;
+  padding: 3rem 2rem;
+}
