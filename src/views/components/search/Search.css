@@ -1,6 +1,7 @@
 .search .MuiFormControl-root {
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+background-blend-mode: soft-light, normal;
+box-shadow: inset -3.63315px -3.63315px 3.63315px rgba(255, 255, 255, 0.7), inset 5.44973px 5.44973px 3.63315px rgba(174, 174, 192, 0.2);
   border-radius: .5rem;
 }
 

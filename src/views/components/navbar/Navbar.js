@@ -8,7 +8,7 @@ const logoSrc = "https://i.imgur.com/KpfCJGS.png";
 function Navbar() {
   return (
     <div className="navbar">
-      <AppBar position="sticky">
+      <AppBar position="fixed">
         <Toolbar>
           <Avatar
             alt="Pokemon Logo"

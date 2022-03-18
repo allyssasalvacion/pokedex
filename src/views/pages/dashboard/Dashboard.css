@@ -1,10 +1,19 @@
 .dashboard {
   background: #f0f3f9;
-  height: 100vh;
+  margin-top: 4rem;
 }
 
 .dashboard__contents {
-  max-width: 72rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  max-width: 80rem;
   margin: auto;
   padding: 3rem 2rem;
+}
+
+.dashboard__pokemons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5rem 3rem;
 }

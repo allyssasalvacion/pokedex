@@ -1,0 +1,72 @@
+.pokecard {
+  padding: 1rem;
+  border-radius: .5rem;
+  height: 180px;
+  background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+  background-blend-mode: soft-light, normal;
+  box-shadow: inset -3.63315px -3.63315px 3.63315px rgba(255, 255, 255, 0.7), inset 5.44973px 5.44973px 3.63315px rgba(174, 174, 192, 0.2);
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  place-items: center;
+  cursor: pointer;
+}
+
+.pokecard img {
+  width: 7.8rem;
+  margin-top: -4.2rem;
+}
+
+.pokecard h4 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+}
+
+.pokecard .pokecard__types {
+  display: flex;
+  gap: 1rem;
+}
+
+.pokecard p {
+  border-radius: .4rem;
+  padding: .4rem .7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.grass {
+  background: #92d0b4;
+  color: #49685a;
+}
+
+.poison {
+  background: #c19fc6;
+  color: #745f77;
+}
+
+.fire {
+  background: #f0968b;
+  color: #8f534c;
+}
+
+.flying {
+  background: #cea97a;
+  color: #785f40;
+}
+
+.water {
+  background: #b6cae5;
+  color: #6d7989;
+}
+
+.bug {
+  background: #8cc877;
+  color: #547847;
+}
+
+.fighting {
+  background: #f2dfd1;
+  color: #91867d;
+}
